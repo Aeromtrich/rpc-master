@@ -16,9 +16,7 @@ import java.lang.reflect.Method;
 /**
  * HTTP 请求处理
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @author Aeromtrich
  */
 public class HttpServerHandler implements Handler<HttpServerRequest> {
 
@@ -63,7 +61,7 @@ public class HttpServerHandler implements Handler<HttpServerRequest> {
                 rpcResponse.setMessage(e.getMessage());
                 rpcResponse.setException(e);
             }
-            // 响应
+            // 最终执行响应代码
             doResponse(request, rpcResponse, serializer);
         });
     }

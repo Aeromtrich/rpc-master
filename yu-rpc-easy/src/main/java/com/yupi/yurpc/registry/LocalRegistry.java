@@ -20,8 +20,8 @@ public class LocalRegistry {
     /**
      * 注册服务
      *
-     * @param serviceName
-     * @param implClass
+     * @param serviceName 服务名称
+     * @param implClass 服务实现类
      */
     public static void register(String serviceName, Class<?> implClass) {
         map.put(serviceName, implClass);

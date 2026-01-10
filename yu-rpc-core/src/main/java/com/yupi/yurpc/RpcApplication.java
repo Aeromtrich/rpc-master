@@ -39,7 +39,7 @@ public class RpcApplication {
     }
 
     /**
-     * 初始化
+     * 默认的初始化
      */
     public static void init() {
         RpcConfig newRpcConfig;

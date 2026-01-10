@@ -15,6 +15,7 @@ import java.lang.reflect.Method;
 @Slf4j
 public class MockServiceProxy implements InvocationHandler {
 
+
     /**
      * 调用代理
      *
@@ -23,9 +24,10 @@ public class MockServiceProxy implements InvocationHandler {
      */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        // 根据方法的返回值类型，生成特定的默认值对象
+        // 获得方法的返回值
         Class<?> methodReturnType = method.getReturnType();
         log.info("mock invoke {}", method.getName());
+        // 根据返回类型生成默认值
         return getDefaultObject(methodReturnType);
     }
 

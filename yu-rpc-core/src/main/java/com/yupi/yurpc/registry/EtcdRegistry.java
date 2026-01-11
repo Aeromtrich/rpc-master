@@ -22,9 +22,7 @@ import java.util.stream.Collectors;
 /**
  * Etcd 注册中心
  *
- * @author <a href="https://github.com/liyupi">coder_yupi</a>
- * @from <a href="https://yupi.icu">编程导航学习圈</a>
- * @learn <a href="https://codefather.cn">yupi 的编程宝典</a>
+ * @author Aeromtrich
  */
 public class EtcdRegistry implements Registry {
 

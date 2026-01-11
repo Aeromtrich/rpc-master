@@ -6,17 +6,15 @@ import cn.hutool.setting.dialect.Props;
 /**
  * 配置工具类
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">程序员鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @author Aeromtrich
  */
 public class ConfigUtils {
 
     /**
      * 加载配置对象
      *
-     * @param tClass
-     * @param prefix
+     * @param tClass 目标 Bean 的 Class 对象 例如 RpcConfig.class）
+     * @param prefix  配置前缀（例如 "rpc"）
      * @param <T>
      * @return
      */
@@ -40,6 +38,7 @@ public class ConfigUtils {
         }
         configFileBuilder.append(".properties");
         Props props = new Props(configFileBuilder.toString());
-        return props.toBean(tClass, prefix);
+        // 2. 去掉 "rpc." 前缀，得到属性名
+        return props.toBean(tClass, prefix); // 将带有指定前缀的配置项转换为 Java 对象 例如 RpcConfig
     }
 }

@@ -17,7 +17,7 @@ public class EasyProviderExample {
 
     public static void main(String[] args) {
 
-        // RpcApplication.init(); RPC 框架初始化（配置和注册中心）
+
         // 注册服务
         LocalRegistry.register(UserService.class.getName(), UserServiceImpl.class);
 

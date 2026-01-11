@@ -9,9 +9,7 @@ import io.vertx.core.parsetools.RecordParser;
  * TCP 消息处理器包装
  * 装饰者模式，使用 recordParser 对原有的 buffer 处理能力进行增强
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @author Aeromtrich
  */
 public class TcpBufferHandlerWrapper implements Handler<Buffer> {
 

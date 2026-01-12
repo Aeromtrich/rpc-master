@@ -11,9 +11,7 @@ import java.lang.reflect.Field;
 /**
  * Rpc 服务消费者启动
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">程序员鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @author Aeromtrich
  */
 @Slf4j
 public class RpcConsumerBootstrap implements BeanPostProcessor {
@@ -32,6 +30,7 @@ public class RpcConsumerBootstrap implements BeanPostProcessor {
         // 遍历对象的所有属性
         Field[] declaredFields = beanClass.getDeclaredFields();
         for (Field field : declaredFields) {
+            // 关联RpcReference注解
             RpcReference rpcReference = field.getAnnotation(RpcReference.class);
             if (rpcReference != null) {
                 // 为属性生成代理对象
@@ -39,9 +38,11 @@ public class RpcConsumerBootstrap implements BeanPostProcessor {
                 if (interfaceClass == void.class) {
                     interfaceClass = field.getType();
                 }
+                // 生成代理对象
                 field.setAccessible(true);
                 Object proxyObject = ServiceProxyFactory.getProxy(interfaceClass);
                 try {
+                    // 将代理对象注入到bean字段中
                     field.set(bean, proxyObject);
                     field.setAccessible(false);
                 } catch (IllegalAccessException e) {

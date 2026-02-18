@@ -17,6 +17,20 @@
 
 ---
 
+# 搭建etcd
+Etcd 3.5.15
+几个特性：
+Lease租约 租约3s 3s过期后相关的键值对会被删除
+Watch监听  监视特定键的变化 值发生变化会触发通知
+
+可视化工具 etcdkeeper https://github.com/evildecay/etcdkeeper/
+./etcdkeeper -p 8081
+Chmod + x etcdkeeper 加上权限
+访问localhost:8081/etcdkeeper/ 就可以看到可视化界面了
+
+客户端工具
+jetcd https://github.com/etcd-io/jetcd java版本>11
+
 ## 一、核心组件概览
 
 ### 1.1 关键类
@@ -127,7 +141,7 @@ EtcdRegistry.register()
 
 ```java
 // 注册服务
-for (ServiceRegisterInfo<?> serviceRegisterInfo : serviceRegisterInfoList) {
+    for (ServiceRegisterInfo<?> serviceRegisterInfo : serviceRegisterInfoList) {
     String serviceName = serviceRegisterInfo.getServiceName();
 
     // 1. 本地注册（用于反射调用）

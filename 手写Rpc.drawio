@@ -1,11 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="第 1 页" id="z87kozAuE5pX91Fea74W">
-    <mxGraphModel dx="4144" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1780" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oBcN0H2LNpYQoeTPZNVO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=1;" value="" vertex="1">
-          <mxGeometry height="760" width="970" x="-1040" y="100" as="geometry" />
+          <mxGeometry height="760" width="970" x="-1020" y="122.27" as="geometry" />
         </mxCell>
         <mxCell id="JBQeUsI5LZvYM7Zje36z-3" edge="1" parent="oBcN0H2LNpYQoeTPZNVO-1" source="oBcN0H2LNpYQoeTPZNVO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oBcN0H2LNpYQoeTPZNVO-8">
           <mxGeometry relative="1" as="geometry" />
@@ -35,19 +35,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Rk-BxHf28-0AiVOfme5U-5" parent="oBcN0H2LNpYQoeTPZNVO-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="providerBootstarp&lt;div&gt;.init(serviceList&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="120" x="13.234592899883852" y="536.226194244055" as="geometry" />
+          <mxGeometry height="40" width="120" x="25.83459289988385" y="557.5561942440551" as="geometry" />
         </mxCell>
         <mxCell id="JBQeUsI5LZvYM7Zje36z-24" parent="oBcN0H2LNpYQoeTPZNVO-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="提供者&amp;nbsp;&lt;div&gt;8080 HTTP服务端口&amp;nbsp;&lt;/div&gt;&lt;div&gt;9090 rpc端口&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="83.1445367965368" y="24.277777777777782" as="geometry" />
+          <mxGeometry height="60" width="140" x="50.0045367965368" y="9.997777777777783" as="geometry" />
         </mxCell>
         <mxCell id="JBQeUsI5LZvYM7Zje36z-67" parent="oBcN0H2LNpYQoeTPZNVO-1" style="rounded=0;whiteSpace=wrap;html=1;container=1;" value="" vertex="1">
           <mxGeometry height="203.90243902439025" width="304.8571428571429" x="491.71609523809525" y="481.95121951219517" as="geometry" />
         </mxCell>
-        <mxCell id="JBQeUsI5LZvYM7Zje36z-66" parent="JBQeUsI5LZvYM7Zje36z-67" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;div&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;br&gt;&lt;/div&gt;先本地注册 concurrenthashMap LocalRegistry&lt;div&gt;userService:userServiceImp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;注册服务到注册中心&lt;/div&gt;&lt;div&gt;UserService192.168.1.1:8080&lt;/div&gt;&lt;div&gt;UserService192.168.1.2:8080&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;添加到本地缓存 localRegisterNodeKeySet&lt;/div&gt;&lt;div&gt;UserService:8080&lt;/div&gt;&lt;div&gt;&lt;br style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="190" width="270" x="12.413868131868131" y="13.902439024390244" as="geometry" />
+        <mxCell id="JBQeUsI5LZvYM7Zje36z-66" parent="JBQeUsI5LZvYM7Zje36z-67" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;div&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;br&gt;&lt;/div&gt;先本地注册 concurrenthashMap LocalRegistry&lt;div&gt;userService:userServiceImp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;注册服务到注册中心&lt;/div&gt;&lt;div&gt;UserService192.168.1.1:8080&lt;/div&gt;&lt;div&gt;UserService192.168.1.2:8080&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;添加到本地缓存 localRegisterNodeKeySet&lt;/div&gt;&lt;div&gt;UserService192.168.1.1.:8080&lt;/div&gt;&lt;div&gt;&lt;br style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="270" x="12.553868131868132" y="6.952439024390244" as="geometry" />
         </mxCell>
         <mxCell id="qRvuUBfZeLMsDmPgRdEg-24" parent="oBcN0H2LNpYQoeTPZNVO-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;1.rpcApp.init 加载application配置&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;2.init(newRpcConfig)初始化配置中心 注册服务&lt;div&gt;3.拿到配置启动服务器&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="270" x="173.07571428571433" y="537.5609756097562" as="geometry" />
+          <mxGeometry height="60" width="270" x="169.9957142857143" y="547.5609756097562" as="geometry" />
         </mxCell>
         <mxCell id="oBcN0H2LNpYQoeTPZNVO-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=1;" value="" vertex="1">
           <mxGeometry height="960" width="1020" x="20" y="50" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry height="133.3333333333333" width="77.27272727272724" x="427.4254623732429" y="780.0026666666666" as="geometry" />
         </mxCell>
         <mxCell id="JBQeUsI5LZvYM7Zje36z-19" parent="oBcN0H2LNpYQoeTPZNVO-2" style="rounded=0;whiteSpace=wrap;html=1;container=1;" value="" vertex="1">
-          <mxGeometry height="652.3076923076923" width="503.0177319587629" x="29.1420559646539" y="47.70061538461538" as="geometry" />
+          <mxGeometry height="652.3076923076923" width="503.0177319587629" x="29.1420559646539" y="41.550615384615384" as="geometry" />
         </mxCell>
         <mxCell id="JBQeUsI5LZvYM7Zje36z-44" edge="1" parent="JBQeUsI5LZvYM7Zje36z-19" source="bRpIeNP4qLkMaSWR5B6_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JBQeUsI5LZvYM7Zje36z-43">
           <mxGeometry relative="1" as="geometry" />
@@ -104,7 +104,7 @@
           <mxGeometry height="66.9024" width="262.2857142857143" x="225.828" y="38.6976" as="geometry" />
         </mxCell>
         <mxCell id="JBQeUsI5LZvYM7Zje36z-57" parent="JBQeUsI5LZvYM7Zje36z-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="放入缓存&lt;div&gt;watch监听机制 被delete时自动删除缓存&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="230" x="17.125730612244897" y="14.252548800000001" as="geometry" />
+          <mxGeometry height="40" width="230" x="16.145730612244897" y="13.4525488" as="geometry" />
         </mxCell>
         <mxCell id="JBQeUsI5LZvYM7Zje36z-61" edge="1" parent="JBQeUsI5LZvYM7Zje36z-19" source="JBQeUsI5LZvYM7Zje36z-53" style="endArrow=classic;html=1;rounded=0;exitX=0.341;exitY=0.951;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.014;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" target="JBQeUsI5LZvYM7Zje36z-58" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -122,7 +122,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JBQeUsI5LZvYM7Zje36z-32" parent="oBcN0H2LNpYQoeTPZNVO-2" style="rounded=0;whiteSpace=wrap;html=1;container=1;" value="" vertex="1">
-          <mxGeometry height="639.9999999999999" width="399.5876288659793" x="573.1436583210603" y="47.704923076923066" as="geometry" />
+          <mxGeometry height="639.9999999999999" width="399.5876288659793" x="580.0036583210604" y="41.55492307692307" as="geometry" />
         </mxCell>
         <mxCell id="Rk-BxHf28-0AiVOfme5U-3" parent="JBQeUsI5LZvYM7Zje36z-32" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" value="&lt;div&gt;1.SerialzerFactory拿到&lt;b&gt;&lt;font style=&quot;font-size: 14px; background-color: rgb(255, 157, 38);&quot;&gt;序列化器&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;2.rpc请求序列化一下&lt;/div&gt;3.发送http请求&lt;div&gt;4.拿到响应再反序列化&lt;/div&gt;" vertex="1">
           <mxGeometry height="231.11111111111106" width="187.89473684210523" x="94.39944343461741" y="332.30803418803407" as="geometry" />
@@ -154,10 +154,10 @@
           <mxGeometry height="170" width="550" x="-640" y="890" as="geometry" />
         </mxCell>
         <mxCell id="JBQeUsI5LZvYM7Zje36z-63" parent="JBQeUsI5LZvYM7Zje36z-64" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;连接ETCD&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;启动heatbeat心跳任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;每10s 根据&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;localRegisterNodeKeySet&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;从etcd查询 过期跳过 未过期续约&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;注册JVM钩子 退出时执行服务销毁 根据&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;localRegisterNodeKeySet删除ETCD的所有服务&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="490" x="13.352997194274609" y="21.248229166666764" as="geometry" />
+          <mxGeometry height="70" width="490" x="14.272997194274609" y="34.99822916666676" as="geometry" />
         </mxCell>
         <mxCell id="JBQeUsI5LZvYM7Zje36z-65" parent="JBQeUsI5LZvYM7Zje36z-64" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="RPC.init" vertex="1">
-          <mxGeometry height="30" width="70" x="224.27631975439937" y="-1.509903313490213e-14" as="geometry" />
+          <mxGeometry height="30" width="70" x="224.27631975439937" y="4.999999999999985" as="geometry" />
         </mxCell>
         <mxCell id="JBQeUsI5LZvYM7Zje36z-70" edge="1" parent="1" source="JBQeUsI5LZvYM7Zje36z-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="JBQeUsI5LZvYM7Zje36z-64">
           <mxGeometry relative="1" as="geometry" />
@@ -172,7 +172,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qRvuUBfZeLMsDmPgRdEg-1" parent="jliZoF9p-Ik8w4fAEjBI-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="SerilizerFatory.getInstance&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="170" x="52.02702702702703" y="90" as="geometry" />
+          <mxGeometry height="40" width="170" x="51.41702702702703" y="90" as="geometry" />
         </mxCell>
         <mxCell id="qRvuUBfZeLMsDmPgRdEg-10" edge="1" parent="jliZoF9p-Ik8w4fAEjBI-1" source="qRvuUBfZeLMsDmPgRdEg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qRvuUBfZeLMsDmPgRdEg-7">
           <mxGeometry relative="1" as="geometry" />

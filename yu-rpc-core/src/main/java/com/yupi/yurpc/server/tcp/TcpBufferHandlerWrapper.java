@@ -19,9 +19,11 @@ public class TcpBufferHandlerWrapper implements Handler<Buffer> {
     private final RecordParser recordParser;
 
     public TcpBufferHandlerWrapper(Handler<Buffer> bufferHandler) {
+        // 我自己写的增强了一下
         recordParser = initRecordParser(bufferHandler);
     }
 
+    // 增强功能
     @Override
     public void handle(Buffer buffer) {
         recordParser.handle(buffer);
@@ -34,9 +36,9 @@ public class TcpBufferHandlerWrapper implements Handler<Buffer> {
      * @return
      */
     private RecordParser initRecordParser(Handler<Buffer> bufferHandler) {
-        // 构造 parser
+        // 构造 parser 17个字节
         RecordParser parser = RecordParser.newFixed(ProtocolConstant.MESSAGE_HEADER_LENGTH);
-
+        // 设置parser的能力 做的事情
         parser.setOutput(new Handler<Buffer>() {
             // 初始化
             int size = -1;

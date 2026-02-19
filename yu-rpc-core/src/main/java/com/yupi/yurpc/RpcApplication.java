@@ -17,6 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class RpcApplication {
 
+    // 单例
     private static volatile RpcConfig rpcConfig;
 
     /**
@@ -41,6 +42,7 @@ public class RpcApplication {
      */
     public static void init() {
         RpcConfig newRpcConfig;
+        // 1
         try {
             // 从配置文件中加载配置
             newRpcConfig = ConfigUtils.loadConfig(RpcConfig.class, RpcConstant.DEFAULT_CONFIG_PREFIX);
@@ -48,6 +50,7 @@ public class RpcApplication {
             // 配置加载失败，使用默认值
             newRpcConfig = new RpcConfig();
         }
+        // 2
         init(newRpcConfig);
     }
 

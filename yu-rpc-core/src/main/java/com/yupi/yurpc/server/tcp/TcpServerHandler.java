@@ -25,7 +25,8 @@ public class TcpServerHandler implements Handler<NetSocket> {
      */
     @Override
     public void handle(NetSocket socket) {
-        TcpBufferHandlerWrapper bufferHandlerWrapper = new TcpBufferHandlerWrapper(buffer -> {
+        // 原始的hander类 匿名内部类
+        Handler<Buffer> originalHandler = buffer -> {
             // 接受请求，解码
             ProtocolMessage<RpcRequest> protocolMessage;
             try {
@@ -64,7 +65,10 @@ public class TcpServerHandler implements Handler<NetSocket> {
             } catch (IOException e) {
                 throw new RuntimeException("协议消息编码错误");
             }
-        });
+        };
+        // 包裹了一下
+        TcpBufferHandlerWrapper bufferHandlerWrapper = new TcpBufferHandlerWrapper(originalHandler);
+
         socket.handler(bufferHandlerWrapper);
     }
 

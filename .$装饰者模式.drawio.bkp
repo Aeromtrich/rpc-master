@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="第 1 页" id="pulX5OXQSRs-g2R2iEd0">
+    <mxGraphModel dx="1137" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0FFXMhJogw3niaLxnPix-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Coffee接口" vertex="1">
+          <mxGeometry height="30" width="80" x="585" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-16" edge="1" parent="1" source="0FFXMhJogw3niaLxnPix-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0FFXMhJogw3niaLxnPix-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="SimpleCoffee类" vertex="1">
+          <mxGeometry height="30" width="110" x="450" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-17" edge="1" parent="1" source="0FFXMhJogw3niaLxnPix-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="装饰者基类" vertex="1">
+          <mxGeometry height="30" width="80" x="700" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="牛奶" vertex="1">
+          <mxGeometry height="30" width="50" x="540" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-13" edge="1" parent="1" source="0FFXMhJogw3niaLxnPix-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0FFXMhJogw3niaLxnPix-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="糖" vertex="1">
+          <mxGeometry height="30" width="40" x="860" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-7" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="120" width="30" x="780" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Coffee的成员变量 持有被装饰的对象" vertex="1">
+          <mxGeometry height="30" width="220" x="820" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="构造器 （Coffee）接受被装饰的对象" vertex="1">
+          <mxGeometry height="30" width="220" x="820" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-11" edge="1" parent="1" source="0FFXMhJogw3niaLxnPix-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" target="0FFXMhJogw3niaLxnPix-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="732" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="extend" vertex="1">
+          <mxGeometry height="30" width="60" x="670" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="extend" vertex="1">
+          <mxGeometry height="30" width="60" x="740" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="0FFXMhJogw3niaLxnPix-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="overwrite&lt;div&gt;getcost方法 （调用被装饰着的方法并增强）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="260" x="410" y="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
